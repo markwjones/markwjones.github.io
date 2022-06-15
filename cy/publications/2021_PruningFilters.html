@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="cy" style="overflow-y: scroll;">
+
+<head>
+  <meta name="robots" content="noindex">
+  <meta charset="utf-8" />
+  <title>Pruning CNN Filters via Quantifying the Importance of Deep Visual Representations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <style>
+  body {
+  padding-top: 5rem;
+}</style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../publications.html">Cyhoeddiadau</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../contact.html">Cyswllt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about.html">Fy nghefndir</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.swansea.ac.uk/cy/">Prifysgol Abertawe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://www.swansea.ac.uk/cy/y-brifysgol/colegau/coleggwyddoniaeth/">Cyfrifiadureg</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="../../publications/2021_PruningFilters.html" lang="en" hreflang="en">English</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <main class="container">
+	<h3>Pruning CNN Filters via Quantifying the Importance of Deep Visual Representations</h3>
+	<h3>Ali Alqahtani, Xianghua Xie, Mark W. Jones and Ehab Essa</h3>
+	<div style="clear: both;"></div>
+	<div style="font-size:larger">
+		<h3>Crynodeb</h3>
+		<p>The achievement of convolutional neural networks (CNNs) in a variety of applications is accompanied
+by a dramatic increase in computational costs and memory requirements. In this paper, we propose
+a novel framework to measure the importance of individual hidden units by computing a measure
+of relevance to identify the most critical filters and prune them to compress and accelerate CNNs.
+Unlike existing methods, we introduce the use of the activation of feature maps to detect valuable
+information and the essential semantic parts to evaluate the importance of feature maps, inspired by
+novel neural network interpretability. A majority voting technique based on the degree of alignment
+between a semantic concept and individual hidden unit representations is proposed to quantitatively
+evaluate the importance of feature maps. We also propose a simple yet effective method to estimate
+new convolution kernels based on the remaining, crucial channels to accomplish effective CNN compression.
+Experimental results show the effectiveness of our filter selection criteria, which outperforms
+the state-of-the-art baselines. Furthermore, we evaluate our pruning method on CIFAR-10, CUB-200,
+and ImageNet (ILSVRC 2012) datasets. The experimental results show that the proposed method
+effciently achieves a 50% FLOPs reduction on CIFAR-10, with only 0.86% accuracy drop on the
+VGG-16 model. Meanwhile, ResNet pruned on CIFAR-10 achieves a 30% reduction in FLOPs with
+only 0.12% and 0.02% drops in accuracy on ResNet-20 and ResNet-32 respectively. For ResNet-50
+on ImageNet, our pruned model achieves a 50% reduction in FLOPs with only a top-5 accuracy drop
+of 0.27%, which significantly outperforms state-of-the-art methods.</p>
+		<h3>Deunyddiau Ffynhonnell</h3>
+		<p>
+			<a href="https://cronfa.swan.ac.uk/Record/cronfa56831/Download/56831__19827__c64cae8a23ae419694fb3ec085e64f8a.pdf"><img style="width:20px;" src="../../resources/pdf-icon.svg" alt="PDF icon"/>Accepted manuscript</a><br/>
+		</p>
+		<h3>DOI</h3>
+		<p>10.1016/j.cviu.2021.103220<br />
+		<a href="https://dx.doi.org/10.1016/j.cviu.2021.103220">https://dx.doi.org/10.1016/j.cviu.2021.103220</a></p>
+		<h3>Enwi</h3>
+		<div class="card">
+			<div class="card-block">
+				<p>Ali Alqahtani, Xianghua Xie, Mark W. Jones and Ehab Essa, Pruning CNN Filters via Quantifying the Importance of Deep Visual Representations, Computer Vision and Image Understanding (208-209) 103220, 2021. https://dx.doi.org/10.1016/j.cviu.2021.103220</p>
+			</div>
+		</div>
+		<h3>BibTeX</h3>
+		<pre>
+@article{PruningFilters,
+title = {Pruning CNN filters via quantifying the importance of deep visual representations},
+journal = {Computer Vision and Image Understanding},
+volume = {208-209},
+pages = {103220},
+year = {2021},
+month = {7},
+issn = {1077-3142},
+doi = {10.1016/j.cviu.2021.103220},
+url = {https://www.sciencedirect.com/science/article/pii/S1077314221000643},
+author = {Ali Alqahtani and Xianghua Xie and Mark W. Jones and Ehab Essa},
+}
+		</pre>
+	</div>
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity=<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

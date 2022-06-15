@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en" style="overflow-y: scroll;">
+
+<head>
+  
+  <meta charset="utf-8" />
+  <title>Distance Field Compression</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <style>
+  body {
+  padding-top: 5rem;
+}</style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../publications.html">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.swansea.ac.uk/">Swansea University</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.swansea.ac.uk/compsci/">Computer Science</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="../cy/publications/2004_Distance_Field_Compression.html" lang="cy" hreflang="cy">Cymraeg</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <main class="container">
+	<h3>Distance Field Compression</h3>
+	<h3>M. W. Jones</h3>
+	<div style="clear: both;"></div>
+	<div style="font-size:larger">
+		<h3>Abstract</h3>
+		<p>This paper compares various techniques for compressing floating point distance fields. Both lossless and lossy techniques are compared against a new lossless technique. The new Vector Transform technique creates a predictor based upon a Vector Distance Transform and its suitability for distance field data sets is reported. The new technique produces a lossless encoding at a third of the file size of entropy encoders, and equivalent to lossy wavelet transforms, where around 75% of the coefficients have been set to zero. The algorithm predicts each voxel value linearly based upon two previous voxels chosen from one of 13 directions which have been previously computed. Those that cannot be predicted are explicitly stored.</p>
+		<h3>Related Files</h3>
+		<p>
+			<a href="../files/2004_WSCG_DF_Compression.pdf"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon"/>Pre-print</a><br/>
+		</p>
+		<h3>Citation</h3>
+		<div class="card">
+			<div class="card-block">
+				<p>M. W. Jones, Distance Field Compression, In The Journal of WSCG 12(2), 199-204, 2004.</p>
+			</div>
+		</div>
+		<h3>BibTeX</h3>
+		<pre>
+@ARTICLE{Distance_Field_Compression,
+  author = {Mark W. Jones},
+  title = {Distance Field Compression},
+  journal = {Journal of WSCG},
+  year = {2004},
+  volume = {12},
+  pages = {199--204},
+  number = {2},
+  issn = {1213-6972},
+  date={2004-02-03},
+}
+		</pre>
+	</div>
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity=<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

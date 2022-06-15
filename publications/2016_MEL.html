@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en" style="overflow-y: scroll;">
+
+<head>
+  
+  <meta charset="utf-8" />
+  <title>Implementing generalized deep-copy in MPI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <style>
+  body {
+  padding-top: 5rem;
+}</style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../publications.html">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.swansea.ac.uk/">Swansea University</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.swansea.ac.uk/compsci/">Computer Science</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="../cy/publications/2016_MEL.html" lang="cy" hreflang="cy">Cymraeg</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <main class="container">
+	<h3>Implementing generalized deep-copy in MPI</h3>
+	<h3>Joss Whittle, Rita Borgo and Mark W. Jones</h3>
+	<div style="clear: both;"></div>
+	<div style="font-size:larger">
+		<h3>Abstract</h3>
+		<p>In this paper we introduce a framework for implementing deep copy on top of MPI. The process is initiated by passing just the root object of the dynamic data structure. Our framework takes care of all pointer traversal, communication, copying and reconstruction on receiving nodes. The benefit of our approach is that MPI users can deep copy complex dynamic data structures without the need to write bespoke communication or serialize / deserialize methods for each object. These methods can present a challenging implementation problem that can quickly become unwieldy to maintain when working with complex structured data. This paper demonstrates our generic implementation, which encapsulates both approaches. We analyze the approach with a variety of structures (trees, graphs (including complete graphs) and rings) and demonstrate that it performs comparably to hand written implementations, using a vastly simplified programming interface. We make the source code available completely as a convenient header file.</p>
+		<h3>Related Files</h3>
+		<p>
+			<a href="https://cronfa.swan.ac.uk/Record/cronfa31197/Download/0031197-22122016101824.pdf"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon"/>Version of record</a><br/>
+			<a href="https://peerj.com/articles/cs-95.pdf"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon"/>Open Access Link</a><br/>
+		</p>
+		<h3>DOI</h3>
+		<p>10.7717/peerj-cs.95<br />
+		<a href="https://dx.doi.org/10.7717/peerj-cs.95">https://dx.doi.org/10.7717/peerj-cs.95</a></p>
+		<h3>Citation</h3>
+		<div class="card">
+			<div class="card-block">
+				<p>Joss Whittle, Rita Borgo and Mark W. Jones, Implementing generalized deep-copy in MPI, PeerJ Computer Science 2:e96, Nov. 2016. https://dx.doi.org/10.7717/peerj-cs.95</p>
+			</div>
+		</div>
+		<h3>BibTeX</h3>
+		<pre>
+@Article{Jones-MEL2016,
+author="Whittle, Joss
+and Borgo, Rita
+and Jones, Mark W.",
+title="Implementing generalized deep-copy in MPI",
+journal="PeerJ",
+year="2016",
+volume="2",
+number="95",
+doi="10.7717/peerj-cs.95",
+url="https://dx.doi.org/10.7717/peerj-cs.95"
+}
+		</pre>
+	</div>
+
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity=<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
