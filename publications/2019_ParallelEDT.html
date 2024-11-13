@@ -2,16 +2,17 @@
 <html lang="en" style="overflow-y: scroll;">
 
 <head>
-  
-  <meta charset="utf-8" />
+  <meta name="robots" content="index, follow">
+  <meta charset="utf-8">
   <title>A work efficient parallel algorithm for exact Euclidean Distance Transform</title>
-  <link rel="canonical" href="https://markwjones.github.io/publications/2019_ParallelEDT.html" />
+  <link rel="canonical" href="https://markwjones.github.io/publications/2019_ParallelEDT.html">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <style>
-  body {
-  padding-top: 5rem;
-}</style>
+    body {
+      padding-top: 5rem;
+    }
+  </style>
 </head>
 
 <body>
@@ -35,10 +36,7 @@
           <a class="nav-link" href="https://www.swansea.ac.uk/">Swansea University</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/compsci/">Computer Science</a>
-        </li>
-		    <li class="nav-item">
-          <a class="nav-link" href="../cy/publications/2019_ParallelEDT.html" lang="cy" hreflang="cy">Cymraeg</a>
+          <a class="nav-link" href="https://www.swansea.ac.uk/compsci">Computer Science</a>
         </li>
       </ul>
     </div>
@@ -46,29 +44,34 @@
   </nav>
 
   <main class="container">
-	<h3>A work efficient parallel algorithm for exact Euclidean Distance Transform</h3>
-	<h3>Manduhu and Mark W. Jones</h3>
+    <h3>A work efficient parallel algorithm for exact Euclidean Distance Transform</h3>
+    <h3>Manduhu and Mark W. Jones</h3>
+
 	<iframe style="float:left" width="560" height="315" src="https://www.youtube-nocookie.com/embed/XEn4zRe_6SM?rel=0" allowfullscreen=""></iframe>
-	<div style="clear: both;"></div>
-	<div style="font-size:larger">
-		<h3>Abstract</h3>
-		<p>A fully-parallelized work-time optimal algorithm is presented for computing the exact Euclidean Distance Transform (EDT) of a 2D binary image with the size of n x n. Unlike existing PRAM and other algorithms, this algorithm is suitable for implementation on modern SIMD architectures such as GPUs. As a fundamental operation of 2D EDT, 1D EDT is efficiently parallelized first. Specifically, the GPU algorithm for the 1D EDT, which uses CUDA binary functions such as ballot(), ffs(), clz() and shfl(), runs in O(log_32_n) time and performs O(n) work. Using the 1D EDT as a fundamental operation, the fully-parallelized work-time optimal 2D EDT algorithm is designed. This algorithm consists of three steps. Step 1 of the algorithm runs in O(log_32_n) time and performs O(N) (N=n^2) of total work on GPU. Step 2 performs O(N) of total work and has an expected time complexity of O(logn) on GPU. Step 3 runs in O(log_32_n) time and performs O(N) of total work on GPU. As far as we know, this algorithm is the first fully-parallelized and realized work-time optimal algorithm for GPUs. Experimental results show that this algorithm outperforms a state-of-the-art GPU algorithm by factor of 2.41 for an image with size of 1024 x 1024.</p>
-		<h3>Related Files</h3>
-		<p>
-			<a href="https://cronfa.swan.ac.uk/Record/cronfa50104/Download/0050104-07052019142411.pdf"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon"/>Accepted manuscript</a><br/>
-			<a href="https://drive.google.com/open?id=1r4jAUuPRhumkd6nB-SnuHLiykhJXcFpD"><img style="width:20px;" src="../resources/mp4.png" alt="MP4 icon"/>Video</a><br/>
-		</p>
-		<h3>DOI</h3>
-		<p>10.1109/TIP.2019.2916741<br />
-		<a href="https://dx.doi.org/10.1109/TIP.2019.2916741">https://dx.doi.org/10.1109/TIP.2019.2916741</a></p>
-		<h3>Citation</h3>
-		<div class="card">
-			<div class="card-block">
-				<p>Manduhu and Mark W. Jones, A work efficient parallel algorithm for exact Euclidean Distance Transform, IEEE Transactions on Image Processing, 28(11), 5322-5335, Nov. 2019. https://dx.doi.org/10.1109/TIP.2019.2916741</p>
-			</div>
-		</div>
-		<h3>BibTeX</h3>
-		<pre>
+
+    <div style="clear: both;"></div>
+    <div style="font-size:larger">
+      <h3>Abstract</h3>
+      <p>A fully-parallelized work-time optimal algorithm is presented for computing the exact Euclidean Distance Transform (EDT) of a 2D binary image with the size of n x n. Unlike existing PRAM and other algorithms, this algorithm is suitable for implementation on modern SIMD architectures such as GPUs. As a fundamental operation of 2D EDT, 1D EDT is efficiently parallelized first. Specifically, the GPU algorithm for the 1D EDT, which uses CUDA binary functions such as ballot(), ffs(), clz() and shfl(), runs in O(log_32_n) time and performs O(n) work. Using the 1D EDT as a fundamental operation, the fully-parallelized work-time optimal 2D EDT algorithm is designed. This algorithm consists of three steps. Step 1 of the algorithm runs in O(log_32_n) time and performs O(N) (N=n^2) of total work on GPU. Step 2 performs O(N) of total work and has an expected time complexity of O(logn) on GPU. Step 3 runs in O(log_32_n) time and performs O(N) of total work on GPU. As far as we know, this algorithm is the first fully-parallelized and realized work-time optimal algorithm for GPUs. Experimental results show that this algorithm outperforms a state-of-the-art GPU algorithm by factor of 2.41 for an image with size of 1024 x 1024.</p>
+      <h3>Related Files</h3>
+      <p>
+        <a href="https://cronfa.swan.ac.uk/Record/cronfa50104/Download/0050104-07052019142411.pdf"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon">Accepted manuscript</a><br>
+        <a href="https://drive.google.com/open?id=1r4jAUuPRhumkd6nB-SnuHLiykhJXcFpD"><img style="width:20px;" src="../resources/mp4.png" alt="MP4 icon">Video</a><br>
+      </p>
+
+      <h3>DOI</h3>
+      <p>10.1109/TIP.2019.2916741<br>
+        <a href="https://dx.doi.org/10.1109/TIP.2019.2916741">https://dx.doi.org/10.1109/TIP.2019.2916741</a>
+      </p>
+
+      <h3>Citation</h3>
+      <div class="card">
+          <div class="card-block">
+              <p>Manduhu and Mark W. Jones, A work efficient parallel algorithm for exact Euclidean Distance Transform, IEEE Transactions on Image Processing, 28(11), 5322-5335, Nov. 2019. https://dx.doi.org/10.1109/TIP.2019.2916741</p>
+          </div>
+      </div>
+      <h3>BibTeX</h3>
+      <pre>
 @article{ParallelEDT, 
 author={M. {Manduhu} and M. W. {Jones}}, 
 journal={IEEE Transactions on Image Processing}, 
@@ -80,14 +83,13 @@ pages={5322-5335},
 doi={10.1109/TIP.2019.2916741}, 
 ISSN={1057-7149}, 
 month={11},}
-		</pre>
-	</div>
-
+      </pre>
+    </div>
   </main>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity=<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 
 </body>
 

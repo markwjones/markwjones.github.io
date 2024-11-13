@@ -1,7 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url><loc>https://markwjones.github.io/about.html</loc></url>
-	<url><loc>https://markwjones.github.io/contact.html</loc></url>
-	<url><loc>https://markwjones.github.io/</loc></url>
 	<url><loc>https://markwjones.github.io/publications/1994_Contour_Distances.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/1995_3D_distance.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/1995_BCSDisplays.html</loc></url>
@@ -90,4 +87,7 @@
 	<url><loc>https://markwjones.github.io/publications/2021_TimeSeriesClustering.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2022_CompressionSamplingStrategies.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2023_ManifoldExplorer.html</loc></url>
+	<url><loc>https://markwjones.github.io/publications/2024_CoRRReID.html</loc></url>
+	<url><loc>https://markwjones.github.io/publications/2024_PointCloudSurvey.html</loc></url>
+	<url><loc>https://markwjones.github.io/publications/2025_StarId.html</loc></url>
 </urlset>
