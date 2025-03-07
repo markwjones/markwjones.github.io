@@ -1,4 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url><loc>https://markwjones.github.io/contact.html</loc></url>
+	<url><loc>https://markwjones.github.io/grants.html</loc></url>
+	<url><loc>https://markwjones.github.io/</loc></url>
+	<url><loc>https://markwjones.github.io/publications.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/1994_Contour_Distances.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/1995_3D_distance.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/1995_BCSDisplays.html</loc></url>
@@ -87,8 +91,81 @@
 	<url><loc>https://markwjones.github.io/publications/2021_TimeSeriesClustering.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2022_CompressionSamplingStrategies.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2023_ManifoldExplorer.html</loc></url>
-	<url><loc>https://markwjones.github.io/publications/2024_CoRRReID.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2024_PointCloudSurvey.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2025_CoRRReID.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2025_StarId.html</loc></url>
+	<url><loc>https://markwjones.github.io/files/1994_EG_Contour_Distances.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/1994_VISC_Fast_Cutting.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/1995_3D_distance_point_to_triangle.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/1995_HPCGV_Glossary.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/1995_Volume_Morphing.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/1996_CGF_Voxel.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/1996_CG_volume_distortion.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/1997_BCS_Accelerating_Volume_Rendering.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/1997_EGUK_Rendering_Shadows.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/1997_EGUK_Space_Subdivision_for_FEMs.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/1999_EGUK_Genetic_Surfaces.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/1999_VG99_Hypertextures.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2000_VMV_Voxelization.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2001_CGI_Artistic_Vol_Rend.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2001_CVIU_VCVDT.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2001_EGUK_DFs_Object_Rep.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2001_SMI_Sub-Voxel_DFs.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2001_VG_Hybrid_DFs.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2001_VMV_Facial_Reconstruction.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2001_WSCG_Hypertexture.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2002_VC_Hypertexture.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2003_WSCG_Melting_Objects.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2004_WSCG_Clayworks.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2004_WSCG_DF_Compression.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2005_CG_Visual_Supercomputing.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2005_VG_GPU_Hypertextures.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2006_IEEETVCG_Distance_Fields.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2006_WSCG_Agent_Based_Vis.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2006_WSCG_Volume_Wires.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2007_BioMedVis_Interactive_Volume_Morphing.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2007_CGF_Volume_Animation.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2009_CGF_Animal_Sensor_Data.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2009_CGF_Cover_Leaf.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2009_CGF_Photon_Relaxation.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2009_IEEETVCG_Hierarchical_PM.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2009_IEEETVCG_Smooth_Graphs.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2011_NAFEMS_Integral_Surfaces.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2012_CGI_MC_and_PhotonM.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2012_EuroVis_Matchpad.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2012_EuroVis_Spherical_and_Parallel_Coords.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2013_ACMTOG_Progressive_Photon_Relaxation.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2013_ACMTOG_Progressive_Photon_Relaxation_Appendix.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2013_CGF_Cover_Prism.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2013_CGF_EG_Photon_Parameterisation.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2013_CGF_FK-Compact.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2013_IEEETVCG_Video_Search.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2013_TVCG_SimilarityMeasures.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2014_CGF_MetaVis.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2014_InfoVis_Order_of_Magnitude_Markers.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2014_InfoVis_Order_of_Magnitude_Markers_pres.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2015_CGVC_Multivariate_Ornithological.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2015_IEEELRGS_FSPE.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2015_IEEETVCG_TimeNotes_User_Study_Material.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2015_VC_DynaMoVis.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2015_VC_DynaMoVis_Eq.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2015_VC_DynaMoVis_Graphs.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2015_VC_TimeClassifier.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2015_VC_TimeClassifier_Supplemental.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2017_CGVC_Data_Painter_pres.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2017_ICIA_LaserRecon.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2017_VC_Analysis_of_MC_Error_pres.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2018_BDVA_TemporalVE.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2018_CGVC_NR-IQA_pres.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2018_ICIP_DeepCAE.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2018_MC_IQA_Deep_ML.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2019_CAIP_Deep_Discriminatory.pdf.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2019_IEEETIP_ParallelEDT.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2019_Pacific_Vis_GlyphBalancing_supp.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2020_ICIP_Lossless_Compression.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2020_ICIP_Lossless_Compression_pres.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2020_ICPR_MedZip.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2020_ICPR_MedZip_poster.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2020_ICPR_Network_Pruning.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2025_SIGNN_Poster.pdf</loc></url>
 </urlset>
