@@ -26,7 +26,9 @@
 	<url><loc>https://markwjones.github.io/publications/2001_Object_Representation_DFs.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2001_Sub-Voxel_DFs.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2001_Vector-City_Vector_Distance_Transform.html</loc></url>
+	<url><loc>https://markwjones.github.io/publications/2002_EGUK2002.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2002_Hypertexturing_Complex_Objects.html</loc></url>
+	<url><loc>https://markwjones.github.io/publications/2002_TPCG2003.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2003_Melting_Objects.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2004_ClayWorks.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2004_Distance_Field_Compression.html</loc></url>
@@ -45,6 +47,7 @@
 	<url><loc>https://markwjones.github.io/publications/2009_Photon_Relaxation.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2009_Smooth_Graphs.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2009_Visualization_Animal_Accelerometry.html</loc></url>
+	<url><loc>https://markwjones.github.io/publications/2010_CausticsPatent.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2011_Integral_Surfaces.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2012_MatchPad.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2012_MC_and_PPM.html</loc></url>
@@ -57,6 +60,7 @@
 	<url><loc>https://markwjones.github.io/publications/2013_Similarity_Measures.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2013_Sketch-based_Video_Visual_Analytics.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2014_Order_of_Magnitude_Markers.html</loc></url>
+	<url><loc>https://markwjones.github.io/publications/2015_BMVC2015.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2015_Daily_diary.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2015_DynaMoVis.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2015_Framing_Environment.html</loc></url>
@@ -93,6 +97,7 @@
 	<url><loc>https://markwjones.github.io/publications/2023_ManifoldExplorer.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2024_PointCloudSurvey.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2025_CoRRReID.html</loc></url>
+	<url><loc>https://markwjones.github.io/publications/2025_DWCNet.html</loc></url>
 	<url><loc>https://markwjones.github.io/publications/2025_StarId.html</loc></url>
 	<url><loc>https://markwjones.github.io/files/1994_EG_Contour_Distances.pdf</loc></url>
 	<url><loc>https://markwjones.github.io/files/1994_VISC_Fast_Cutting.pdf</loc></url>
@@ -159,7 +164,7 @@
 	<url><loc>https://markwjones.github.io/files/2018_CGVC_NR-IQA_pres.pdf</loc></url>
 	<url><loc>https://markwjones.github.io/files/2018_ICIP_DeepCAE.pdf</loc></url>
 	<url><loc>https://markwjones.github.io/files/2018_MC_IQA_Deep_ML.pdf</loc></url>
-	<url><loc>https://markwjones.github.io/files/2019_CAIP_Deep_Discriminatory.pdf.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/2019_CAIP_Deep_Discriminatory.pdf</loc></url>
 	<url><loc>https://markwjones.github.io/files/2019_IEEETIP_ParallelEDT.pdf</loc></url>
 	<url><loc>https://markwjones.github.io/files/2019_Pacific_Vis_GlyphBalancing_supp.pdf</loc></url>
 	<url><loc>https://markwjones.github.io/files/2020_ICIP_Lossless_Compression.pdf</loc></url>
@@ -168,4 +173,5 @@
 	<url><loc>https://markwjones.github.io/files/2020_ICPR_MedZip_poster.pdf</loc></url>
 	<url><loc>https://markwjones.github.io/files/2020_ICPR_Network_Pruning.pdf</loc></url>
 	<url><loc>https://markwjones.github.io/files/2025_SIGNN_Poster.pdf</loc></url>
+	<url><loc>https://markwjones.github.io/files/Mark W Jones CV.pdf</loc></url>
 </urlset>
