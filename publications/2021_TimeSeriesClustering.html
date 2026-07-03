@@ -1,82 +1,102 @@
 ﻿<!DOCTYPE html>
-<html lang="en" style="overflow-y: scroll;">
+<html lang="en" class="h-100">
 
 <head>
-  <meta name="robots" content="index, follow">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
   <title>Deep Time-Series Clustering: A Review</title>
   <meta name="author" content="Mark W. Jones">
   <meta name="description" content="Abstract, Citation and Bibliography details for Deep Time-Series Clustering: A Review.">
-  <link rel="canonical" href="https://markwjones.github.iopublications/2021_TimeSeriesClustering.html">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="canonical" href="https://markwjones.github.io/publications/2021_TimeSeriesClustering.html">
+  
+  <!-- Bootstrap 5.3.8 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <style>
-    /*Code to change color of active link*/
     .navbar-nav > .active > a {
-        color: #0d6efd;
+        color: #0d6efd !important;
     }
-</style>
+    .bibtex-box {
+        background-color: var(--bs-gray-100);
+        padding: 1rem;
+        border-radius: 0.375rem;
+        font-size: 0.9rem;
+        border: 1px solid var(--bs-gray-300);
+    }
+  </style>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<body class="d-flex flex-column h-100 bg-white text-dark">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../grants.html">Grants</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/">Swansea University</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/compsci">Computer Science</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom border-light shadow-sm">
+    <div class="container-fluid px-4">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="../publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../grants.html">Grants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.uk">Swansea University</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.ukcompsci">Computer Science</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
   </nav>
-  <section style="padding-top: 4em;">
-  <main class="container">
-    <h3>Deep Time-Series Clustering: A Review</h3>
-    <h3>Ali Alqahtani, Mohammed Ali, Xianghua Xie and Mark W Jones</h3>
 
-
-    <div style="clear: both;"></div>
-    <div style="font-size:larger">
-      <h3>Abstract</h3>
-      <p>We present a comprehensive, detailed review of time-series data analysis, with emphasis on deep time-series clustering (DTSC), and a case study in the context of movement behavior clustering utilizing the deep clustering method. Specifically, we modified the DCAE architectures to suit time-series data at the time of our prior deep clustering work. Lately, several works have been carried out on deep clustering of time-series data. We also review these works and identify state-of-the-art, as well as present an outlook on this important field of DTSC from five important perspectives.</p>
-      <h3>Related Files</h3>
+  <main class="container my-5 pt-4 flex-shrink-0">
+    <div class="row">
+        <div class="col-12 text-dark">
+            <h1 class="h3 fw-bold mb-2">Deep Time-Series Clustering: A Review</h1>
+            <h2 class="fs-5 text-body mb-4">Ali Alqahtani, Mohammed Ali, Xianghua Xie and Mark W Jones</h2>
+            
+            
+            
+            
+            <div class="clearfix"></div>
+            
+            <div class="mt-4">
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Abstract</h2>
+            <p class="lead fs-5 lh-base text-dark">We present a comprehensive, detailed review of time-series data analysis, with emphasis on deep time-series clustering (DTSC), and a case study in the context of movement behavior clustering utilizing the deep clustering method. Specifically, we modified the DCAE architectures to suit time-series data at the time of our prior deep clustering work. Lately, several works have been carried out on deep clustering of time-series data. We also review these works and identify state-of-the-art, as well as present an outlook on this important field of DTSC from five important perspectives.</p>
+            
+                  <h3>Related Files</h3>
       <p>
         <a href="https://www.mdpi.com/2079-9292/10/23/3001"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon">Open access link</a><br>
       </p>
 
-      <h3>DOI</h3>
+                  <h3>DOI</h3>
       <p>10.3390/electronics10233001<br>
         <a href="https://dx.doi.org/10.3390/electronics10233001">https://dx.doi.org/10.3390/electronics10233001</a>
       </p>
 
-      <h3>Citation</h3>
-      <div class="card">
-          <div class="card-block">
-              <p>Ali Alqahtani, Mohammed Ali, Xianghua Xie and Mark W Jones, Deep Time-Series Clustering: A Review, Electronics 10(23):3001 (2021). https://dx.doi.org/10.3390/electronics10233001</p>
-          </div>
-      </div>
-      <h3>BibTeX</h3>
-      <pre>
-@article{TimeSeriesClustering,
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Citation</h2>
+            <div class="card border-0 bg-light p-3 mb-4">
+                <div class="card-body p-0">
+                <p class="mb-0 text-body fs-5">Ali Alqahtani, Mohammed Ali, Xianghua Xie and Mark W Jones, "Deep Time-Series Clustering: A Review", Electronics 10(23):3001 (2021). https://dx.doi.org/10.3390/electronics10233001</p>
+                </div>
+            </div>
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">BibTeX</h2>
+            <pre class="bibtex-box text-dark font-monospace overflow-x-auto">@article{TimeSeriesClustering,
   author       = {Alqahtani, Ali and Ali, Mohammed and Xie, Xianghua and Jones, Mark W.},
   title        = {Deep Time-Series Clustering: {A} Review},
   journal      = {Electronics},
@@ -88,14 +108,17 @@
   month        = dec,
   issn         = {2079-9292},
   doi          = {10.3390/electronics10233001}
-}
-      </pre>
+}</pre>
+            
+            </div>
+        </div>
     </div>
-  </main>
-  </section>
 
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <a href="/sitemap.xml" style="opacity: 0.5; font-size: small;">Sitemap</a>
+  </main>
+
+  <!-- Bootstrap 5.3.8 Core JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>

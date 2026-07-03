@@ -1,88 +1,108 @@
 ﻿<!DOCTYPE html>
-<html lang="en" style="overflow-y: scroll;">
+<html lang="en" class="h-100">
 
 <head>
-  <meta name="robots" content="index, follow">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
   <title>Visualization of Sensor Data from Animal Movement</title>
   <meta name="author" content="Mark W. Jones">
   <meta name="description" content="Abstract, Citation and Bibliography details for Visualization of Sensor Data from Animal Movement.">
-  <link rel="canonical" href="https://markwjones.github.iopublications/2009_Visualization_Animal_Accelerometry.html">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="canonical" href="https://markwjones.github.io/publications/2009_Visualization_Animal_Accelerometry.html">
+  
+  <!-- Bootstrap 5.3.8 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <style>
-    /*Code to change color of active link*/
     .navbar-nav > .active > a {
-        color: #0d6efd;
+        color: #0d6efd !important;
     }
-</style>
+    .bibtex-box {
+        background-color: var(--bs-gray-100);
+        padding: 1rem;
+        border-radius: 0.375rem;
+        font-size: 0.9rem;
+        border: 1px solid var(--bs-gray-300);
+    }
+  </style>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<body class="d-flex flex-column h-100 bg-white text-dark">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../grants.html">Grants</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/">Swansea University</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/compsci">Computer Science</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom border-light shadow-sm">
+    <div class="container-fluid px-4">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="../publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../grants.html">Grants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.uk">Swansea University</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.ukcompsci">Computer Science</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
   </nav>
-  <section style="padding-top: 4em;">
-  <main class="container">
-    <h3>Visualization of Sensor Data from Animal Movement</h3>
-    <h3>E. Grundy, M. W. Jones, R. S. Laramee, R. P. Wilson, and E. F. Shepard</h3>
-	<a href="../files/2009_eurovis_best_paper_award.jpg">
+
+  <main class="container my-5 pt-4 flex-shrink-0">
+    <div class="row">
+        <div class="col-12 text-dark">
+            <h1 class="h3 fw-bold mb-2">Visualization of Sensor Data from Animal Movement</h1>
+            <h2 class="fs-5 text-body mb-4">E. Grundy, M. W. Jones, R. S. Laramee, R. P. Wilson, and E. F. Shepard</h2>
+            
+            	<a href="../files/2009_eurovis_best_paper_award.jpg">
 		<img src="../files/2009_eurovis_best_paper_award.jpg" alt="Eurovis 2009 Best Paper Award" style="width:480px">
 	</a>
 
-	<iframe style="float:left" width="480" height="360" src="https://www.youtube-nocookie.com/embed/FYpP8yTxJWQ?rel=0" allowfullscreen=""></iframe>
+            	<iframe style="float:left" width="480" height="360" src="https://www.youtube-nocookie.com/embed/FYpP8yTxJWQ?rel=0" allowfullscreen=""></iframe>
 
-    <div style="clear: both;"></div>
-    <div style="font-size:larger">
-      <h3>Abstract</h3>
-      <p>A new area of biological research is identifying and grouping patterns of behaviour in wild animals by analysing data obtained through the attachment of tri-axial accelerometers. As these recording devices become smaller and less expensive their use has increased. Currently acceleration data are visualised as 2D time series plots, and analyses are based on summary statistics and the application of Fourier transforms. We develop alternate visualisations of this data so as to analyse, explore and present new patterns of animal behaviour. Our visualisations include interactive spherical scatterplots, spherical histograms, clustering methods, and feature-based state diagrams of the data. We study the application of these visualisation methods to accelerometry data from animal movement. The reaction of biologists to these visualisations is also reported.</p>
-      <h3>Related Files</h3>
+            
+            <div class="clearfix"></div>
+            
+            <div class="mt-4">
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Abstract</h2>
+            <p class="lead fs-5 lh-base text-dark">A new area of biological research is identifying and grouping patterns of behaviour in wild animals by analysing data obtained through the attachment of tri-axial accelerometers. As these recording devices become smaller and less expensive their use has increased. Currently acceleration data are visualised as 2D time series plots, and analyses are based on summary statistics and the application of Fourier transforms. We develop alternate visualisations of this data so as to analyse, explore and present new patterns of animal behaviour. Our visualisations include interactive spherical scatterplots, spherical histograms, clustering methods, and feature-based state diagrams of the data. We study the application of these visualisation methods to accelerometry data from animal movement. The reaction of biologists to these visualisations is also reported.</p>
+            
+                  <h3>Related Files</h3>
       <p>
         <a href="../files/2009_CGF_Animal_Sensor_Data.pdf"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon">Pre-print</a><br>
         <a href="https://drive.google.com/file/d/0BwnsNzXLdwCCZG8tTXlFa3h5YkU/view?usp=sharing&resourcekey=0-0XPfZkATfFnbLFaOz5REXg"><img style="width:20px;" src="../resources/mp4.png" alt="MP4 icon">Video</a><br>
         <a href="../files/2009_eurovis_best_paper_award.jpg"><img style="width:20px;" src="../resources/jpg.png" alt="PDF icon">Best paper award</a><br>
       </p>
 
-      <h3>DOI</h3>
+                  <h3>DOI</h3>
       <p>10.1111/j.1467-8659.2009.01469.x<br>
         <a href="https://dx.doi.org/10.1111/j.1467-8659.2009.01469.x">https://dx.doi.org/10.1111/j.1467-8659.2009.01469.x</a>
       </p>
 
-      <h3>Citation</h3>
-      <div class="card">
-          <div class="card-block">
-              <p>E. Grundy, M. W. Jones, R. S. Laramee, R. P. Wilson, and E. F. Shepard, Visualization of Sensor Data from Animal Movement, Eurographics/ IEEE-VGTC Symposium on Visualization (Eurovis) 2009, Computer Graphics Forum 28(3), 815-822, 2009. https://dx.doi.org/10.1111/j.1467-8659.2009.01469.x</p>
-          </div>
-      </div>
-      <h3>BibTeX</h3>
-      <pre>
-@article{Visualization_Animal_Accelerometry,
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Citation</h2>
+            <div class="card border-0 bg-light p-3 mb-4">
+                <div class="card-body p-0">
+                <p class="mb-0 text-body fs-5">E. Grundy, M. W. Jones, R. S. Laramee, R. P. Wilson, and E. F. Shepard, "Visualization of Sensor Data from Animal Movement", Eurographics/ IEEE-VGTC Symposium on Visualization (Eurovis) 2009, Computer Graphics Forum 28(3), 815-822, 2009. https://dx.doi.org/10.1111/j.1467-8659.2009.01469.x</p>
+                </div>
+            </div>
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">BibTeX</h2>
+            <pre class="bibtex-box text-dark font-monospace overflow-x-auto">@article{Visualization_Animal_Accelerometry,
   author       = {Grundy, Ed and Jones, Mark W. and Laramee, Robert S. and Wilson, Rory P. and Shepard, Emily F.},
   title        = {Visualization of Sensor Data from Animal Movement},
   journal      = {Eurographics/ IEEE-VGTC Symposium on Visualization (Eurovis) 2009, Computer Graphics Forum},
@@ -94,14 +114,17 @@
   month        = jun,
   issn         = {0167-7055},
   doi          = {10.1111/j.1467-8659.2009.01469.x}
-}
-      </pre>
+}</pre>
+            
+            </div>
+        </div>
     </div>
-  </main>
-  </section>
 
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <a href="/sitemap.xml" style="opacity: 0.5; font-size: small;">Sitemap</a>
+  </main>
+
+  <!-- Bootstrap 5.3.8 Core JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,65 +1,84 @@
 ﻿<!DOCTYPE html>
-<html lang="en" style="overflow-y: scroll;">
+<html lang="en" class="h-100">
 
 <head>
-  <meta name="robots" content="index, follow">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
   <title>TimeClassifier: a visual analytic system for the classification of multi-dimensional time series data</title>
   <meta name="author" content="Mark W. Jones">
   <meta name="description" content="Abstract, Citation and Bibliography details for TimeClassifier: a visual analytic system for the classification of multi-dimensional time series data.">
-  <link rel="canonical" href="https://markwjones.github.iopublications/2015_TimeClassifier.html">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="canonical" href="https://markwjones.github.io/publications/2015_TimeClassifier.html">
+  
+  <!-- Bootstrap 5.3.8 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <style>
-    /*Code to change color of active link*/
     .navbar-nav > .active > a {
-        color: #0d6efd;
+        color: #0d6efd !important;
     }
-</style>
+    .bibtex-box {
+        background-color: var(--bs-gray-100);
+        padding: 1rem;
+        border-radius: 0.375rem;
+        font-size: 0.9rem;
+        border: 1px solid var(--bs-gray-300);
+    }
+  </style>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<body class="d-flex flex-column h-100 bg-white text-dark">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../grants.html">Grants</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/">Swansea University</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/compsci">Computer Science</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom border-light shadow-sm">
+    <div class="container-fluid px-4">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="../publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../grants.html">Grants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.uk">Swansea University</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.ukcompsci">Computer Science</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
   </nav>
-  <section style="padding-top: 4em;">
-  <main class="container">
-    <h3>TimeClassifier: a visual analytic system for the classification of multi-dimensional time series data</h3>
-    <h3>James S. Walker, Mark W. Jones, Robert S. Laramee, Owen R. Bidder, Hannah J. Williams, Rebecca Scott, Emily L. C. Shepard and Rory P. Wilson</h3>
 
-	<iframe style="float:left" width="480" height="360" src="https://www.youtube-nocookie.com/embed/jw7ur8z85fY?rel=0" allowfullscreen=""></iframe>
+  <main class="container my-5 pt-4 flex-shrink-0">
+    <div class="row">
+        <div class="col-12 text-dark">
+            <h1 class="h3 fw-bold mb-2">TimeClassifier: a visual analytic system for the classification of multi-dimensional time series data</h1>
+            <h2 class="fs-5 text-body mb-4">James S. Walker, Mark W. Jones, Robert S. Laramee, Owen R. Bidder, Hannah J. Williams, Rebecca Scott, Emily L. C. Shepard and Rory P. Wilson</h2>
+            
+            
+            	<iframe style="float:left" width="480" height="360" src="https://www.youtube-nocookie.com/embed/jw7ur8z85fY?rel=0" allowfullscreen=""></iframe>
 
-    <div style="clear: both;"></div>
-    <div style="font-size:larger">
-      <h3>Abstract</h3>
-      <p>Biologists studying animals in their natural environment are increasingly using sensors such as accelerometers in animal-attached 'smart' tags because it is widely acknowledged that this approach can enhance the understanding of ecological and behavioural processes. The potential of such tags is tempered by the difficulty of extracting animal behaviour from the sensors which is currently primarily dependent on the manual inspection of multiple time series graphs. This is time consuming and error-prone for the domain expert and is now the limiting factor for realising the value of tags in this area. We introduce TimeClassifier, a visual analytic system for the classification of time series data for movement ecologists. We deploy our system with biologists and report two real-world case studies of its use.</p>
-      <h3>Related Files</h3>
+            
+            <div class="clearfix"></div>
+            
+            <div class="mt-4">
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Abstract</h2>
+            <p class="lead fs-5 lh-base text-dark">Biologists studying animals in their natural environment are increasingly using sensors such as accelerometers in animal-attached 'smart' tags because it is widely acknowledged that this approach can enhance the understanding of ecological and behavioural processes. The potential of such tags is tempered by the difficulty of extracting animal behaviour from the sensors which is currently primarily dependent on the manual inspection of multiple time series graphs. This is time consuming and error-prone for the domain expert and is now the limiting factor for realising the value of tags in this area. We introduce TimeClassifier, a visual analytic system for the classification of time series data for movement ecologists. We deploy our system with biologists and report two real-world case studies of its use.</p>
+            
+                  <h3>Related Files</h3>
       <p>
         <a href="../files/2015_VC_TimeClassifier.pdf"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon">Accepted version</a><br>
         <a href="https://drive.google.com/file/d/0BwnsNzXLdwCCVUtibHFjU2hfV0E/view?usp=sharing&resourcekey=0-h8AFBT7VT9gkq1CX_sFJoQ"><img style="width:20px;" src="../resources/mp4.png" alt="MP4 icon">Video</a><br>
@@ -67,20 +86,21 @@
         <a href="http://framework4.swan.ac.uk/"><img style="width:20px;" src="../resources/URL.png" alt="URL icon">Website</a><br>
       </p>
 
-      <h3>DOI</h3>
+                  <h3>DOI</h3>
       <p>10.1007/s00371-015-1112-0<br>
         <a href="https://dx.doi.org/10.1007/s00371-015-1112-0">https://dx.doi.org/10.1007/s00371-015-1112-0</a>
       </p>
 
-      <h3>Citation</h3>
-      <div class="card">
-          <div class="card-block">
-              <p>James S. Walker, Mark W. Jones, Robert S. Laramee, Owen R. Bidder, Hannah J. Williams, Rebecca Scott, Emily L. C. Shepard and Rory P. Wilson, TimeClassifier: a visual analytic system for the classification of multi-dimensional time series data, The Visual Computer, 31(6-8), 1067-1078, 2015. https://dx.doi.org/10.1007/s00371-015-1112-0</p>
-          </div>
-      </div>
-      <h3>BibTeX</h3>
-      <pre>
-@article{TimeClassifier,
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Citation</h2>
+            <div class="card border-0 bg-light p-3 mb-4">
+                <div class="card-body p-0">
+                <p class="mb-0 text-body fs-5">James S. Walker, Mark W. Jones, Robert S. Laramee, Owen R. Bidder, Hannah J. Williams, Rebecca Scott, Emily L. C. Shepard and Rory P. Wilson, "TimeClassifier: a visual analytic system for the classification of multi-dimensional time series data", The Visual Computer, 31(6-8), 1067-1078, 2015. https://dx.doi.org/10.1007/s00371-015-1112-0</p>
+                </div>
+            </div>
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">BibTeX</h2>
+            <pre class="bibtex-box text-dark font-monospace overflow-x-auto">@article{TimeClassifier,
   author       = {Walker, James S. and Jones, Mark W. and Laramee, Robert S. and Bidder, Owen R. and Williams, Hannah J. and Scott, Rebecca and Shepard, Emily L. C. and Wilson, Rory P.},
   title        = {{TimeClassifier}: {A} Visual Analytic System for the Classification of Multi-Dimensional Time Series Data},
   journal      = {The Visual Computer},
@@ -95,14 +115,17 @@
   publisher    = {Springer Berlin Heidelberg},
   url          = {https://dx.doi.org/10.1007/s00371-015-1112-0},
   keywords     = {Visual analytics, Time series analysis, Movement ecology}
-}
-      </pre>
+}</pre>
+            
+            </div>
+        </div>
     </div>
-  </main>
-  </section>
 
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <a href="/sitemap.xml" style="opacity: 0.5; font-size: small;">Sitemap</a>
+  </main>
+
+  <!-- Bootstrap 5.3.8 Core JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>

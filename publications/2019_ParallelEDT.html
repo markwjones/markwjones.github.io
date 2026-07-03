@@ -1,84 +1,104 @@
 ﻿<!DOCTYPE html>
-<html lang="en" style="overflow-y: scroll;">
+<html lang="en" class="h-100">
 
 <head>
-  <meta name="robots" content="index, follow">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
   <title>A work efficient parallel algorithm for exact Euclidean Distance Transform</title>
   <meta name="author" content="Mark W. Jones">
   <meta name="description" content="Abstract, Citation and Bibliography details for A work efficient parallel algorithm for exact Euclidean Distance Transform.">
-  <link rel="canonical" href="https://markwjones.github.iopublications/2019_ParallelEDT.html">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="canonical" href="https://markwjones.github.io/publications/2019_ParallelEDT.html">
+  
+  <!-- Bootstrap 5.3.8 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <style>
-    /*Code to change color of active link*/
     .navbar-nav > .active > a {
-        color: #0d6efd;
+        color: #0d6efd !important;
     }
-</style>
+    .bibtex-box {
+        background-color: var(--bs-gray-100);
+        padding: 1rem;
+        border-radius: 0.375rem;
+        font-size: 0.9rem;
+        border: 1px solid var(--bs-gray-300);
+    }
+  </style>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<body class="d-flex flex-column h-100 bg-white text-dark">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../grants.html">Grants</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/">Swansea University</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/compsci">Computer Science</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom border-light shadow-sm">
+    <div class="container-fluid px-4">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="../publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../grants.html">Grants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.uk">Swansea University</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.ukcompsci">Computer Science</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
   </nav>
-  <section style="padding-top: 4em;">
-  <main class="container">
-    <h3>A work efficient parallel algorithm for exact Euclidean Distance Transform</h3>
-    <h3>Manduhu and Mark W. Jones</h3>
 
-	<iframe style="float:left" width="560" height="315" src="https://www.youtube-nocookie.com/embed/XEn4zRe_6SM?rel=0" allowfullscreen=""></iframe>
+  <main class="container my-5 pt-4 flex-shrink-0">
+    <div class="row">
+        <div class="col-12 text-dark">
+            <h1 class="h3 fw-bold mb-2">A work efficient parallel algorithm for exact Euclidean Distance Transform</h1>
+            <h2 class="fs-5 text-body mb-4">Manduhu and Mark W. Jones</h2>
+            
+            
+            	<iframe style="float:left" width="560" height="315" src="https://www.youtube-nocookie.com/embed/XEn4zRe_6SM?rel=0" allowfullscreen=""></iframe>
 
-    <div style="clear: both;"></div>
-    <div style="font-size:larger">
-      <h3>Abstract</h3>
-      <p>A fully-parallelized work-time optimal algorithm is presented for computing the exact Euclidean Distance Transform (EDT) of a 2D binary image with the size of n x n. Unlike existing PRAM and other algorithms, this algorithm is suitable for implementation on modern SIMD architectures such as GPUs. As a fundamental operation of 2D EDT, 1D EDT is efficiently parallelized first. Specifically, the GPU algorithm for the 1D EDT, which uses CUDA binary functions such as ballot(), ffs(), clz() and shfl(), runs in O(log_32_n) time and performs O(n) work. Using the 1D EDT as a fundamental operation, the fully-parallelized work-time optimal 2D EDT algorithm is designed. This algorithm consists of three steps. Step 1 of the algorithm runs in O(log_32_n) time and performs O(N) (N=n^2) of total work on GPU. Step 2 performs O(N) of total work and has an expected time complexity of O(logn) on GPU. Step 3 runs in O(log_32_n) time and performs O(N) of total work on GPU. As far as we know, this algorithm is the first fully-parallelized and realized work-time optimal algorithm for GPUs. Experimental results show that this algorithm outperforms a state-of-the-art GPU algorithm by factor of 2.41 for an image with size of 1024 x 1024.</p>
-      <h3>Related Files</h3>
+            
+            <div class="clearfix"></div>
+            
+            <div class="mt-4">
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Abstract</h2>
+            <p class="lead fs-5 lh-base text-dark">A fully-parallelized work-time optimal algorithm is presented for computing the exact Euclidean Distance Transform (EDT) of a 2D binary image with the size of n x n. Unlike existing PRAM and other algorithms, this algorithm is suitable for implementation on modern SIMD architectures such as GPUs. As a fundamental operation of 2D EDT, 1D EDT is efficiently parallelized first. Specifically, the GPU algorithm for the 1D EDT, which uses CUDA binary functions such as ballot(), ffs(), clz() and shfl(), runs in O(log_32_n) time and performs O(n) work. Using the 1D EDT as a fundamental operation, the fully-parallelized work-time optimal 2D EDT algorithm is designed. This algorithm consists of three steps. Step 1 of the algorithm runs in O(log_32_n) time and performs O(N) (N=n^2) of total work on GPU. Step 2 performs O(N) of total work and has an expected time complexity of O(logn) on GPU. Step 3 runs in O(log_32_n) time and performs O(N) of total work on GPU. As far as we know, this algorithm is the first fully-parallelized and realized work-time optimal algorithm for GPUs. Experimental results show that this algorithm outperforms a state-of-the-art GPU algorithm by factor of 2.41 for an image with size of 1024 x 1024.</p>
+            
+                  <h3>Related Files</h3>
       <p>
         <a href="../files/2019_IEEETIP_ParallelEDT.pdf"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon">Accepted Version</a><br>
         <a href="https://drive.google.com/open?id=1r4jAUuPRhumkd6nB-SnuHLiykhJXcFpD"><img style="width:20px;" src="../resources/mp4.png" alt="MP4 icon">Video</a><br>
       </p>
 
-      <h3>DOI</h3>
+                  <h3>DOI</h3>
       <p>10.1109/TIP.2019.2916741<br>
         <a href="https://dx.doi.org/10.1109/TIP.2019.2916741">https://dx.doi.org/10.1109/TIP.2019.2916741</a>
       </p>
 
-      <h3>Citation</h3>
-      <div class="card">
-          <div class="card-block">
-              <p>Manduhu and Mark W. Jones, A work efficient parallel algorithm for exact Euclidean Distance Transform, IEEE Transactions on Image Processing, 28(11), 5322-5335, Nov. 2019. https://dx.doi.org/10.1109/TIP.2019.2916741</p>
-          </div>
-      </div>
-      <h3>BibTeX</h3>
-      <pre>
-@article{ParallelEDT,
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Citation</h2>
+            <div class="card border-0 bg-light p-3 mb-4">
+                <div class="card-body p-0">
+                <p class="mb-0 text-body fs-5">Manduhu and Mark W. Jones, "A work efficient parallel algorithm for exact Euclidean Distance Transform", IEEE Transactions on Image Processing, 28(11), 5322-5335, Nov. 2019. https://dx.doi.org/10.1109/TIP.2019.2916741</p>
+                </div>
+            </div>
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">BibTeX</h2>
+            <pre class="bibtex-box text-dark font-monospace overflow-x-auto">@article{ParallelEDT,
   author       = {Manduhu, M. and Jones, Mark W.},
   title        = {A Work Efficient Parallel Algorithm for Exact {Euclidean} Distance Transform},
   journal      = {IEEE Transactions on Image Processing},
@@ -90,14 +110,17 @@
   month        = nov,
   issn         = {1057-7149},
   doi          = {10.1109/TIP.2019.2916741}
-}
-      </pre>
+}</pre>
+            
+            </div>
+        </div>
     </div>
-  </main>
-  </section>
 
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <a href="/sitemap.xml" style="opacity: 0.5; font-size: small;">Sitemap</a>
+  </main>
+
+  <!-- Bootstrap 5.3.8 Core JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>

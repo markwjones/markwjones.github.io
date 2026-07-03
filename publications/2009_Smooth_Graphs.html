@@ -1,84 +1,104 @@
 ﻿<!DOCTYPE html>
-<html lang="en" style="overflow-y: scroll;">
+<html lang="en" class="h-100">
 
 <head>
-  <meta name="robots" content="index, follow">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
   <title>Smooth Graphs for Visual Exploration of Higher-Order State Transitions</title>
   <meta name="author" content="Mark W. Jones">
   <meta name="description" content="Abstract, Citation and Bibliography details for Smooth Graphs for Visual Exploration of Higher-Order State Transitions.">
-  <link rel="canonical" href="https://markwjones.github.iopublications/2009_Smooth_Graphs.html">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="canonical" href="https://markwjones.github.io/publications/2009_Smooth_Graphs.html">
+  
+  <!-- Bootstrap 5.3.8 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <style>
-    /*Code to change color of active link*/
     .navbar-nav > .active > a {
-        color: #0d6efd;
+        color: #0d6efd !important;
     }
-</style>
+    .bibtex-box {
+        background-color: var(--bs-gray-100);
+        padding: 1rem;
+        border-radius: 0.375rem;
+        font-size: 0.9rem;
+        border: 1px solid var(--bs-gray-300);
+    }
+  </style>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<body class="d-flex flex-column h-100 bg-white text-dark">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../grants.html">Grants</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/">Swansea University</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/compsci">Computer Science</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom border-light shadow-sm">
+    <div class="container-fluid px-4">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="../publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../grants.html">Grants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.uk">Swansea University</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.ukcompsci">Computer Science</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
   </nav>
-  <section style="padding-top: 4em;">
-  <main class="container">
-    <h3>Smooth Graphs for Visual Exploration of Higher-Order State Transitions</h3>
-    <h3>J. Blaas, C. Botha, E. Grundy, M. W. Jones, R. Laramee and F. Post</h3>
 
-	<iframe style="float:left" width="480" height="360" src="https://www.youtube-nocookie.com/embed/PeV10C2RIo4?rel=0" allowfullscreen=""></iframe>
+  <main class="container my-5 pt-4 flex-shrink-0">
+    <div class="row">
+        <div class="col-12 text-dark">
+            <h1 class="h3 fw-bold mb-2">Smooth Graphs for Visual Exploration of Higher-Order State Transitions</h1>
+            <h2 class="fs-5 text-body mb-4">J. Blaas, C. Botha, E. Grundy, M. W. Jones, R. Laramee and F. Post</h2>
+            
+            
+            	<iframe style="float:left" width="480" height="360" src="https://www.youtube-nocookie.com/embed/PeV10C2RIo4?rel=0" allowfullscreen=""></iframe>
 
-    <div style="clear: both;"></div>
-    <div style="font-size:larger">
-      <h3>Abstract</h3>
-      <p>In this paper, we present a new visual way of exploring state sequences in large observational time-series. A key advantage of our method is that it can directly visualize higher-order state transitions. A standard first order state transition is a sequence of two states that are linked by a transition. A higher-order state transition is a sequence of three or more states where the sequence of participating states are linked together by consecutive first order state transitions. Our method extends the current state-graph exploration methods by employing a two dimensional graph, in which higher-order state transitions are visualized as curved lines. All transitions are bundled into thick splines, so that the thickness of an edge represents the frequency of instances. The bundling between two states takes into account the state transitions before and after the transition. This is done in such a way that it forms a continuous representation in which any subsequence of the timeseries is represented by a continuous smooth line. The edge bundles in these graphs can be explored interactively through our incremental selection algorithm. We demonstrate our method with an application in exploring labeled time-series data from a biological survey, where a clustering has assigned a single label to the data at each time-point. In these sequences, a large number of cyclic patterns occur, which in turn are linked to specific activities. We demonstrate how our method helps to find these cycles, and how the interactive selection process helps to find and investigate activities.</p>
-      <h3>Related Files</h3>
+            
+            <div class="clearfix"></div>
+            
+            <div class="mt-4">
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Abstract</h2>
+            <p class="lead fs-5 lh-base text-dark">In this paper, we present a new visual way of exploring state sequences in large observational time-series. A key advantage of our method is that it can directly visualize higher-order state transitions. A standard first order state transition is a sequence of two states that are linked by a transition. A higher-order state transition is a sequence of three or more states where the sequence of participating states are linked together by consecutive first order state transitions. Our method extends the current state-graph exploration methods by employing a two dimensional graph, in which higher-order state transitions are visualized as curved lines. All transitions are bundled into thick splines, so that the thickness of an edge represents the frequency of instances. The bundling between two states takes into account the state transitions before and after the transition. This is done in such a way that it forms a continuous representation in which any subsequence of the timeseries is represented by a continuous smooth line. The edge bundles in these graphs can be explored interactively through our incremental selection algorithm. We demonstrate our method with an application in exploring labeled time-series data from a biological survey, where a clustering has assigned a single label to the data at each time-point. In these sequences, a large number of cyclic patterns occur, which in turn are linked to specific activities. We demonstrate how our method helps to find these cycles, and how the interactive selection process helps to find and investigate activities.</p>
+            
+                  <h3>Related Files</h3>
       <p>
         <a href="../files/2009_IEEETVCG_Smooth_Graphs.pdf"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon">Pre-print</a><br>
         <a href="https://drive.google.com/file/d/0BwnsNzXLdwCCYnM4ZmtOaWUxZjg/view?usp=sharing&resourcekey=0-_rmNcLjUQEVYWOJz9Xsb1A"><img style="width:20px;" src="../resources/mp4.png" alt="MP4 icon">Video</a><br>
       </p>
 
-      <h3>DOI</h3>
+                  <h3>DOI</h3>
       <p>10.1109/TVCG.2009.181<br>
         <a href="https://dx.doi.org/10.1109/TVCG.2009.181">https://dx.doi.org/10.1109/TVCG.2009.181</a>
       </p>
 
-      <h3>Citation</h3>
-      <div class="card">
-          <div class="card-block">
-              <p>J. Blaas, C. Botha, E. Grundy, M. W. Jones, R. Laramee and F. Post, Smooth Graphs for Visual Exploration of Higher-Order State Transitions, IEEE Transactions on Visualization and Computer Graphics 15(6), 969-976, 2009. https://dx.doi.org/10.1109/TVCG.2009.181</p>
-          </div>
-      </div>
-      <h3>BibTeX</h3>
-      <pre>
-@article{Smooth_Graphs,
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Citation</h2>
+            <div class="card border-0 bg-light p-3 mb-4">
+                <div class="card-body p-0">
+                <p class="mb-0 text-body fs-5">J. Blaas, C. Botha, E. Grundy, M. W. Jones, R. Laramee and F. Post, "Smooth Graphs for Visual Exploration of Higher-Order State Transitions", IEEE Transactions on Visualization and Computer Graphics 15(6), 969-976, 2009. https://dx.doi.org/10.1109/TVCG.2009.181</p>
+                </div>
+            </div>
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">BibTeX</h2>
+            <pre class="bibtex-box text-dark font-monospace overflow-x-auto">@article{Smooth_Graphs,
   author       = {Blaas, J. and Botha, C. P. and Grundy, E. and Jones, M. and Laramee, R. S. and Post, F. H.},
   title        = {Smooth Graphs for Visual Exploration of Higher-Order State Transitions},
   journal      = {IEEE Transactions on Visualization and Computer Graphics},
@@ -90,14 +110,17 @@
   month        = oct,
   issn         = {1077-2626},
   doi          = {10.1109/TVCG.2009.181}
-}
-      </pre>
+}</pre>
+            
+            </div>
+        </div>
     </div>
-  </main>
-  </section>
 
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <a href="/sitemap.xml" style="opacity: 0.5; font-size: small;">Sitemap</a>
+  </main>
+
+  <!-- Bootstrap 5.3.8 Core JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>

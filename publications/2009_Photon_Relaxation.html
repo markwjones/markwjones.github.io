@@ -1,82 +1,102 @@
 ﻿<!DOCTYPE html>
-<html lang="en" style="overflow-y: scroll;">
+<html lang="en" class="h-100">
 
 <head>
-  <meta name="robots" content="index, follow">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
   <title>Into the Blue: Better Caustics through Photon Relaxation</title>
   <meta name="author" content="Mark W. Jones">
   <meta name="description" content="Abstract, Citation and Bibliography details for Into the Blue: Better Caustics through Photon Relaxation.">
-  <link rel="canonical" href="https://markwjones.github.iopublications/2009_Photon_Relaxation.html">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="canonical" href="https://markwjones.github.io/publications/2009_Photon_Relaxation.html">
+  
+  <!-- Bootstrap 5.3.8 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <style>
-    /*Code to change color of active link*/
     .navbar-nav > .active > a {
-        color: #0d6efd;
+        color: #0d6efd !important;
     }
-</style>
+    .bibtex-box {
+        background-color: var(--bs-gray-100);
+        padding: 1rem;
+        border-radius: 0.375rem;
+        font-size: 0.9rem;
+        border: 1px solid var(--bs-gray-300);
+    }
+  </style>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<body class="d-flex flex-column h-100 bg-white text-dark">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../grants.html">Grants</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/">Swansea University</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/compsci">Computer Science</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom border-light shadow-sm">
+    <div class="container-fluid px-4">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="../publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../grants.html">Grants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.uk">Swansea University</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.ukcompsci">Computer Science</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
   </nav>
-  <section style="padding-top: 4em;">
-  <main class="container">
-    <h3>Into the Blue: Better Caustics through Photon Relaxation</h3>
-    <h3>Ben Spencer and Mark W. Jones</h3>
 
-
-    <div style="clear: both;"></div>
-    <div style="font-size:larger">
-      <h3>Abstract</h3>
-      <p>The photon mapping method is one of the most popular algorithms employed in computer graphics today. However, obtaining good results is dependent on several variables including kernel shape and bandwidth, as well as the properties of the initial photon distribution. While the photon density estimation problem has been the target of extensive research, most algorithms focus on new methods of optimising the kernel to minimise noise and bias. In this paper we break from convention and propose a new approach that directly redistributes the underlying photons. We show that by relaxing the initial distribution into one with a blue noise spectral signature we can dramatically reduce background noise, particularly in areas of uniform illumination. In addition, we propose an efficient heuristic to detect and preserve features and discontinuities. We then go on to demonstrate how reconfiguration also permits the use of very low bandwidth kernels, greatly improving render times whilst reducing bias.</p>
-      <h3>Related Files</h3>
+  <main class="container my-5 pt-4 flex-shrink-0">
+    <div class="row">
+        <div class="col-12 text-dark">
+            <h1 class="h3 fw-bold mb-2">Into the Blue: Better Caustics through Photon Relaxation</h1>
+            <h2 class="fs-5 text-body mb-4">Ben Spencer and Mark W. Jones</h2>
+            
+            
+            
+            
+            <div class="clearfix"></div>
+            
+            <div class="mt-4">
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Abstract</h2>
+            <p class="lead fs-5 lh-base text-dark">The photon mapping method is one of the most popular algorithms employed in computer graphics today. However, obtaining good results is dependent on several variables including kernel shape and bandwidth, as well as the properties of the initial photon distribution. While the photon density estimation problem has been the target of extensive research, most algorithms focus on new methods of optimising the kernel to minimise noise and bias. In this paper we break from convention and propose a new approach that directly redistributes the underlying photons. We show that by relaxing the initial distribution into one with a blue noise spectral signature we can dramatically reduce background noise, particularly in areas of uniform illumination. In addition, we propose an efficient heuristic to detect and preserve features and discontinuities. We then go on to demonstrate how reconfiguration also permits the use of very low bandwidth kernels, greatly improving render times whilst reducing bias.</p>
+            
+                  <h3>Related Files</h3>
       <p>
         <a href="../files/2009_CGF_Photon_Relaxation.pdf"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon">Accepted manuscript</a><br>
       </p>
 
-      <h3>DOI</h3>
+                  <h3>DOI</h3>
       <p>10.1111/j.1467-8659.2009.01371.x<br>
         <a href="https://dx.doi.org/10.1111/j.1467-8659.2009.01371.x">https://dx.doi.org/10.1111/j.1467-8659.2009.01371.x</a>
       </p>
 
-      <h3>Citation</h3>
-      <div class="card">
-          <div class="card-block">
-              <p>Ben Spencer and Mark W. Jones, Into the Blue: Better Caustics through Photon Relaxation, Computer Graphics Forum 28(2) 319-328, 2009. https://dx.doi.org/10.1111/j.1467-8659.2009.01371.x</p>
-          </div>
-      </div>
-      <h3>BibTeX</h3>
-      <pre>
-@article{Photon_Relaxation,
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Citation</h2>
+            <div class="card border-0 bg-light p-3 mb-4">
+                <div class="card-body p-0">
+                <p class="mb-0 text-body fs-5">Ben Spencer and Mark W. Jones, "Into the Blue: Better Caustics through Photon Relaxation", Computer Graphics Forum 28(2) 319-328, 2009. https://dx.doi.org/10.1111/j.1467-8659.2009.01371.x</p>
+                </div>
+            </div>
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">BibTeX</h2>
+            <pre class="bibtex-box text-dark font-monospace overflow-x-auto">@article{Photon_Relaxation,
   author       = {Spencer, Ben and Jones, Mark W.},
   title        = {Into the Blue: {B}etter Caustics through Photon Relaxation},
   journal      = {Eurographics 2009, Computer Graphics Forum},
@@ -88,14 +108,17 @@
   month        = mar,
   issn         = {0167-7055},
   doi          = {10.1111/j.1467-8659.2009.01371.x}
-}
-      </pre>
+}</pre>
+            
+            </div>
+        </div>
     </div>
-  </main>
-  </section>
 
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <a href="/sitemap.xml" style="opacity: 0.5; font-size: small;">Sitemap</a>
+  </main>
+
+  <!-- Bootstrap 5.3.8 Core JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>

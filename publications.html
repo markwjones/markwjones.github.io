@@ -1,60 +1,71 @@
 ﻿<!DOCTYPE html>
-<html lang="en" style="overflow-y: scroll;">
+<html lang="en" class="h-100">
 
 <head>
-  <meta name="robots" content="index, follow">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
   <title>Professor Mark W. Jones Publications List</title>
   <meta name="author" content="Mark W. Jones">
   <meta name="description" content="List of publications for Professor Mark W. Jones, Swansea University in newest first order. Links to pdfs and videos from each page.">
   <link rel="canonical" href="https://markwjones.github.io/publications.html">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- Bootstrap 5.3.8 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <style>
-    /*Code to change color of active link*/
     .navbar-nav > .active > a {
-        color: #0d6efd;
+        color: #0d6efd !important;
     }
-</style>
+    .bibtex-box {
+        background-color: var(--bs-gray-100);
+        padding: 1rem;
+        border-radius: 0.375rem;
+        font-size: 0.9rem;
+        border: 1px solid var(--bs-gray-300);
+    }
+  </style>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<body class="d-flex flex-column h-100 bg-white text-dark">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="grants.html">Grants</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/">Swansea University</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/compsci">Computer Science</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom border-light shadow-sm">
+    <div class="container-fluid px-4">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="grants.html">Grants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.uk">Swansea University</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.ukcompsci">Computer Science</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
   </nav>
-  <section style="padding-top: 4em;">
-  <main class="container">
-  <h2>Professor Mark W. Jones</h2>
-  <h3>Publications</h3>
-  <div style="font-size:large">
+
+  <main class="container my-5 pt-4 flex-shrink-0">
+  <h1 class="h2">Professor Mark W. Jones</h1>
+  <h2 class="h3">Publications</h2>
     <ol reversed="reversed">
-      <li>Tulsi Patel, Mark W. Jones and Thomas Redfern, <a href="publications/2025_RSLabelling.html">Leveraging Convolutional and Graph Networks for an Unsupervised Remote Sensing Labelling Tool</a>,  in Annals of GIS, Feb. 2026. https://dx.doi.org/10.1080/19475683.2026.2626395</li>
+      <li>Tulsi Patel, Mark W. Jones and Thomas Redfern, <a href="publications/2025_RSLabelling.html">Leveraging Convolutional and Graph Networks for an Unsupervised Remote Sensing Labelling Tool</a>,  in Annals of GIS, 32(2), 263-281. 2026. https://dx.doi.org/10.1080/19475683.2026.2626395</li>
       <li>Jason M. Summers and Mark W. Jones, <a href="publications/2025_UnderwaterFM.html">Impact of Underwater Image Enhancement on Feature Matching</a>,  in Sensors, 25(22), 6996, Nov. 2025. https://dx.doi.org/10.3390/s25226966</li>
       <li>Keneni Worku Tesema, Lyndon Hill, Mark W. Jones and Gary K.L. Tam, <a href="publications/2025_DWCNet.html">Denoising-While-Completing Network (DWCNet): Robust Point Cloud Completion under Corruption</a>,  in Computers and Graphics, 104401, Sep. 2025. https://dx.doi.org/10.1016/j.cag.2025.104401</li>
       <li>Fanzhi Jiang, Su Yang, Mark W. Jones and Liumei Zhang, <a href="publications/2025_CoRRReID.html">From Attributes to Natural Language: A Survey and Foresight on Text-based Person Re-identification</a>,  in Information Fusion, vol. 30, pp. 102879, Jun. 2025. https://dx.doi.org/10.1016/j.inffus.2024.102879</li>
@@ -127,8 +138,7 @@
       <li>T. Lewis and M. W. Jones, <a href="publications/2004_ClayWorks.html">A System for the Non-Linear Modelling of Deformable Procedural Shapes</a>, In The Journal of WSCG 12(2), 253-260, 2004.</li>
       <li>Mark W. Jones, Ed., <a href="publications/2002_TPCG2003.html">TPCG '03: Proceedings of the Theory and Practice of Computer Graphics 3-5 June 2003, Birmingham, UK</a>,  IEEE Computer Society, ISBN: 978-0-7695-1942-5.</li>
       <li>M. W. Jones, <a href="publications/2003_Melting_Objects.html">Melting Objects</a>, In The Journal of WSCG 11(2), 247-254, 2003.</li>
-      <li>Mark W. Jones, Ed., <a href="publications/2002_EGUK2002.html">EGUK '02: Proceedings of the 20th Eurographics UK Conference 2002</a>,  De Montfort
-University, Leicester, UK, IEEE Computer Society, ISBN: 0-7695-1518-5.</li>
+      <li>Mark W. Jones, Ed., <a href="publications/2002_EGUK2002.html">EGUK '02: Proceedings of the 20th Eurographics UK Conference 2002</a>,  De Montfort University, Leicester, UK, IEEE Computer Society, ISBN: 0-7695-1518-5.</li>
       <li>R. Satherley and M. W. Jones, <a href="publications/2002_Hypertexturing_Complex_Objects.html">Hypertexturing Complex Volume Objects</a>, In The Visual Computer 18(4), 226-235, 2002. https://dx.doi.org/10.1007/s003710100143</li>
       <li>M. W. Jones, <a href="publications/2001_Facial_Reconstruction_Using_Volumetric_Data.html">Facial Reconstruction Using Volumetric Data</a>, In T. Ertl, B. Girod, G. Greiner, H. Niemann, H. -P. Seidel (eds.), Vision, Modeling, and Visualization 2001, (IOS Press, 2001), 135-142.</li>
       <li>R. Satherley and M. W. Jones, <a href="publications/2001_Hybrid_Distance_Field_Computation.html">Hybrid Distance Field Computation</a>, In K. Mueller and A. Kaufman (eds.), Volume Graphics 2001, Springer-Wien New York, 195-209. https://dx.doi.org/10.1007/978-3-7091-6756-4_13</li>
@@ -154,13 +164,12 @@ University, Leicester, UK, IEEE Computer Society, ISBN: 0-7695-1518-5.</li>
       <li>M. W. Jones and M. Chen, <a href="publications/1994_Contour_Distances.html">A New Approach to the Construction of Surfaces from Contour Data</a>, Computer Graphics Forum 13(3), 75-84, 1994. https://dx.doi.org/10.1111/1467-8659.1330075</li>
       <li>M. W. Jones and M. Chen, <a href="publications/1995_Fast_Cutting.html">Fast Cutting Operations on Three Dimensional Volume Datasets</a>, In M. Goebel, Hueller and B. Urban (eds.), Visualization in Scientific Computing, Springer-Verlag Berlin, 1-8, 1995.</li>
     </ol>
-  </div>
 
+  <a href="/sitemap.xml" style="opacity: 0.5; font-size: small;">Sitemap</a>
   </main>
-  </section>
 
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Bootstrap 5.3.8 Core JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>

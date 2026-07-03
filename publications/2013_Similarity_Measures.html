@@ -1,84 +1,104 @@
 ﻿<!DOCTYPE html>
-<html lang="en" style="overflow-y: scroll;">
+<html lang="en" class="h-100">
 
 <head>
-  <meta name="robots" content="index, follow">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
   <title>Similarity Measures for Enhancing Interactive Streamline Seeding</title>
   <meta name="author" content="Mark W. Jones">
   <meta name="description" content="Abstract, Citation and Bibliography details for Similarity Measures for Enhancing Interactive Streamline Seeding.">
-  <link rel="canonical" href="https://markwjones.github.iopublications/2013_Similarity_Measures.html">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="canonical" href="https://markwjones.github.io/publications/2013_Similarity_Measures.html">
+  
+  <!-- Bootstrap 5.3.8 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
   <style>
-    /*Code to change color of active link*/
     .navbar-nav > .active > a {
-        color: #0d6efd;
+        color: #0d6efd !important;
     }
-</style>
+    .bibtex-box {
+        background-color: var(--bs-gray-100);
+        padding: 1rem;
+        border-radius: 0.375rem;
+        font-size: 0.9rem;
+        border: 1px solid var(--bs-gray-300);
+    }
+  </style>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<body class="d-flex flex-column h-100 bg-white text-dark">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../publications.html">Publications</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../grants.html">Grants</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/">Swansea University</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.swansea.ac.uk/compsci">Computer Science</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom border-light shadow-sm">
+    <div class="container-fluid px-4">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="../publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../grants.html">Grants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.uk">Swansea University</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.ukcompsci">Computer Science</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
   </nav>
-  <section style="padding-top: 4em;">
-  <main class="container">
-    <h3>Similarity Measures for Enhancing Interactive Streamline Seeding</h3>
-    <h3>Tony McLoughlin, Mark W. Jones, Robert S. Laramee, Rami Malki, Ian Masters, and Charles D. Hansen</h3>
 
-	<iframe style="float:left" width="480" height="360" src="https://www.youtube-nocookie.com/embed/xgvldsrvR1w?rel=0" allowfullscreen=""></iframe>
+  <main class="container my-5 pt-4 flex-shrink-0">
+    <div class="row">
+        <div class="col-12 text-dark">
+            <h1 class="h3 fw-bold mb-2">Similarity Measures for Enhancing Interactive Streamline Seeding</h1>
+            <h2 class="fs-5 text-body mb-4">Tony McLoughlin, Mark W. Jones, Robert S. Laramee, Rami Malki, Ian Masters, and Charles D. Hansen</h2>
+            
+            
+            	<iframe style="float:left" width="480" height="360" src="https://www.youtube-nocookie.com/embed/xgvldsrvR1w?rel=0" allowfullscreen=""></iframe>
 
-    <div style="clear: both;"></div>
-    <div style="font-size:larger">
-      <h3>Abstract</h3>
-      <p>Streamline seeding rakes are widely used in vector field visualization. We present new approaches for calculating similarity between integral curves (streamlines and pathlines). While others have used similarity distance measures, the computational expense involved with existing techniques is relatively high due to the vast number of Euclidean distance tests, restricting interactivity and their use for streamline seeding rakes.We introduce the novel idea of computing streamline signatures based on a set of curve-based attributes. A signature produces a compact representation for describing a streamline. Similarity comparisons are performed by using a popular statistical measure on the derived signatures. We demonstrate that this novel scheme, including a hierarchical variant, produces good clustering results and is computed over two orders of magnitude faster than previous methods. Similarity-based clustering enables filtering of the streamlines to provide a non-uniform seeding distribution along the seeding object. We show that this method preserves the overall flow behavior while using only a small subset of the original streamline set. We apply focus + context rendering using the clusters which allows for faster and easier analysis in cases of high visual complexity and occlusion. The method provides a high level of interactivity and allows the user to easily fine-tune the clustering results at run-time while avoiding any time-consuming re-computation. Our method maintains interactive rates even when hundreds of streamlines are used.</p>
-      <h3>Related Files</h3>
+            
+            <div class="clearfix"></div>
+            
+            <div class="mt-4">
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Abstract</h2>
+            <p class="lead fs-5 lh-base text-dark">Streamline seeding rakes are widely used in vector field visualization. We present new approaches for calculating similarity between integral curves (streamlines and pathlines). While others have used similarity distance measures, the computational expense involved with existing techniques is relatively high due to the vast number of Euclidean distance tests, restricting interactivity and their use for streamline seeding rakes.We introduce the novel idea of computing streamline signatures based on a set of curve-based attributes. A signature produces a compact representation for describing a streamline. Similarity comparisons are performed by using a popular statistical measure on the derived signatures. We demonstrate that this novel scheme, including a hierarchical variant, produces good clustering results and is computed over two orders of magnitude faster than previous methods. Similarity-based clustering enables filtering of the streamlines to provide a non-uniform seeding distribution along the seeding object. We show that this method preserves the overall flow behavior while using only a small subset of the original streamline set. We apply focus + context rendering using the clusters which allows for faster and easier analysis in cases of high visual complexity and occlusion. The method provides a high level of interactivity and allows the user to easily fine-tune the clustering results at run-time while avoiding any time-consuming re-computation. Our method maintains interactive rates even when hundreds of streamlines are used.</p>
+            
+                  <h3>Related Files</h3>
       <p>
         <a href="../files/2013_TVCG_SimilarityMeasures.pdf"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon">Pre-print</a><br>
         <a href="https://drive.google.com/file/d/0BwnsNzXLdwCCMEdGeXExdzE5N1E/view?usp=sharing&resourcekey=0-TXVNqyU1W6gfT1O5_nWdbw"><img style="width:20px;" src="../resources/mp4.png" alt="MP4 icon">Video</a><br>
       </p>
 
-      <h3>DOI</h3>
+                  <h3>DOI</h3>
       <p>10.1109/TVCG.2012.150<br>
         <a href="https://dx.doi.org/10.1109/TVCG.2012.150">https://dx.doi.org/10.1109/TVCG.2012.150</a>
       </p>
 
-      <h3>Citation</h3>
-      <div class="card">
-          <div class="card-block">
-              <p>Tony McLoughlin, Mark W. Jones, Robert S. Laramee, Rami Malki, Ian Masters, and Charles D. Hansen, Similarity Measures for Enhancing Interactive Streamline Seeding, IEEE Transactions on Visualization and Computer Graphics, 19(8), 1342-1353, 2013. https://dx.doi.org/10.1109/TVCG.2012.150</p>
-          </div>
-      </div>
-      <h3>BibTeX</h3>
-      <pre>
-@article{SimilarityMeasures,
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Citation</h2>
+            <div class="card border-0 bg-light p-3 mb-4">
+                <div class="card-body p-0">
+                <p class="mb-0 text-body fs-5">Tony McLoughlin, Mark W. Jones, Robert S. Laramee, Rami Malki, Ian Masters, and Charles D. Hansen, "Similarity Measures for Enhancing Interactive Streamline Seeding", IEEE Transactions on Visualization and Computer Graphics, 19(8), 1342-1353, 2013. https://dx.doi.org/10.1109/TVCG.2012.150</p>
+                </div>
+            </div>
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">BibTeX</h2>
+            <pre class="bibtex-box text-dark font-monospace overflow-x-auto">@article{SimilarityMeasures,
   author       = {McLoughlin, T. and Jones, Mark W. and Laramee, R. S. and Malki, R. and Masters, I. and Hansen, C. D.},
   title        = {Similarity Measures for Enhancing Interactive Streamline Seeding},
   journal      = {IEEE Transactions on Visualization and Computer Graphics},
@@ -90,14 +110,17 @@
   month        = aug,
   issn         = {1077-2626},
   doi          = {10.1109/TVCG.2012.150}
-}
-      </pre>
+}</pre>
+            
+            </div>
+        </div>
     </div>
-  </main>
-  </section>
 
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <a href="/sitemap.xml" style="opacity: 0.5; font-size: small;">Sitemap</a>
+  </main>
+
+  <!-- Bootstrap 5.3.8 Core JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>
