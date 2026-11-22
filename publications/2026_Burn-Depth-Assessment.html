@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow">
+  <title>Automated Four-Class Burn Depth Assessment from Clinical Photographs: A Patient-Level Deep Learning Benchmark</title>
+  <meta name="author" content="Mark W. Jones">
+  <meta name="description" content="Abstract, Citation and Bibliography details for Automated Four-Class Burn Depth Assessment from Clinical Photographs: A Patient-Level Deep Learning Benchmark.">
+  <link rel="canonical" href="https://markwjones.github.io/publications/2026_Burn-Depth-Assessment.html">
+  
+  <!-- Bootstrap 5.3.8 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <style>
+    .navbar-nav > .active > a {
+        color: #0d6efd !important;
+    }
+    .bibtex-box {
+        background-color: var(--bs-gray-100);
+        padding: 1rem;
+        border-radius: 0.375rem;
+        font-size: 0.9rem;
+        border: 1px solid var(--bs-gray-300);
+    }
+  </style>
+</head>
+
+<body class="d-flex flex-column h-100 bg-white text-dark">
+
+  <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom border-light shadow-sm">
+    <div class="container-fluid px-4">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-1">
+          <li class="nav-item active">
+            <a class="nav-link" href="../publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../grants.html">Grants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.uk">Swansea University</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://swansea.ac.uk/compsci">Computer Science</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5 pt-4 flex-shrink-0">
+    <div class="row">
+        <div class="col-12 text-dark">
+            <h1 class="h3 fw-bold mb-2">Automated Four-Class Burn Depth Assessment from Clinical Photographs: A Patient-Level Deep Learning Benchmark</h1>
+            <h2 class="fs-5 text-body mb-4">Fanzhi Jiang, Yi Hu, Gengchen Ye, Chenyu Liu, Liumei Zhang, Yexiang Sun, Delin Hu, Mark W. Jonesa, Su Yang and Yanbin Zhang</h2>
+            
+            
+            
+            
+            <div class="clearfix"></div>
+            
+            <div class="mt-4">
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Abstract</h2>
+            <p class="lead fs-5 lh-base text-dark">Background:
+Accurate burn-depth assessment is important for treatment planning and referral, but visual assessment is subjective and sensitive to image-acquisition variability.
+Methods:
+We developed BurnNet-C, a convolutional model combining multi-scale depthwise convolutions, adaptive normalization, attention, and stochastic regularization, and evaluated it for four-class burn-depth classification. A clinically acquired dataset of burn photographs was annotated by experienced burn specialists and split at the patient level. BurnNet-C was compared with 13 ImageNet-pretrained CNN and Transformer architectures under the same training protocol and was additionally evaluated on two public burn-image datasets. Models were trained and evaluated separately on each public dataset; this was not an external test of a model trained on the clinical cohort. Model attention was examined using Grad-CAM.
+Results:
+On the clinical dataset, BurnNet-C achieved 68.75% accuracy and a macro F1-score of 0.684, compared with 66.25% accuracy for the best comparator, ViT-B/16. BurnNet-C also achieved 82.40% and 98.26% accuracy on the two public datasets. Ablation experiments showed lower accuracy after removal or replacement of normalization, attention, or stochastic-depth components. Differences in accuracy relative to the strongest comparators were not statistically significant after multiplicity adjustment. Grad-CAM maps predominantly highlighted burn regions and clinically relevant morphological features.
+Conclusions:
+BurnNet-C achieved competitive numerical results in three independently evaluated burn-image datasets, without establishing cross-dataset generalization. Patient-level evaluation and standardized benchmarking support its value as a reproducible baseline for image-based burn-depth assessment, while prospective multi-centre validation is required before clinical deployment.</p>
+            
+                  <h3>Related Files</h3>
+      <p>
+        <a href="https://www.sciencedirect.com/science/article/pii/S0305417926004420"><img style="width:20px;" src="../resources/URL.png" alt="URL icon">Open access link</a><br>
+        <a href="https://www.sciencedirect.com/science/article/pii/S0305417926004420"><img style="width:20px;" src="../resources/pdf-icon.svg" alt="PDF icon">Open access pdf</a><br>
+      </p>
+
+                  <h3>DOI</h3>
+      <p>10.1016/j.burns.2026.108290<br>
+        <a href="https://dx.doi.org/10.1016/j.burns.2026.108290">https://dx.doi.org/10.1016/j.burns.2026.108290</a>
+      </p>
+
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">Citation</h2>
+            <div class="card border-0 bg-light p-3 mb-4">
+                <div class="card-body p-0">
+                <p class="mb-0 text-body fs-5">Fanzhi Jiang, Yi Hu, Gengchen Ye, Chenyu Liu, Liumei Zhang, Yexiang Sun, Delin Hu, Mark W. Jonesa, Su Yang and Yanbin Zhang, "Automated Four-Class Burn Depth Assessment from Clinical Photographs: A Patient-Level Deep Learning Benchmark",  Burns, 2026;:108290. https://dx.doi.org/10.1016/j.burns.2026.108290</p>
+                </div>
+            </div>
+            
+            <h2 class="h4 fw-bold mt-4 mb-2">BibTeX</h2>
+            <pre class="bibtex-box text-dark font-monospace overflow-x-auto">@article{Burn-Depth-Assessment,
+    author     = {Fanzhi Jiang and Yi Hu and Gengchen Ye and Chenyu Liu and Liumei Zhang and Yexiang Sun and Delin Hu and Mark W. Jones and Su Yang and Yanbin Zhang},
+    title      = {Automated Four-Class Burn Depth Assessment from Clinical Photographs: A Patient-Level Deep Learning Benchmark},
+    journal    = {Burns},
+    pages      = {108290},
+    date       = {2026-11-21},
+    year       = {2026},
+    month      = nov,
+    issn       = {0305-4179},
+    doi        = {10.1016/j.burns.2026.108290},
+    url        = {https://www.sciencedirect.com/science/article/pii/S0305417926004420},
+}</pre>
+            
+            </div>
+        </div>
+    </div>
+
+  <a href="/sitemap.xml" style="opacity: 0.5; font-size: small;">Sitemap</a>
+  </main>
+
+  <!-- Bootstrap 5.3.8 Core JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
